@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serveyform</title>
+ <style>
+ .form-control{
+    text-align:left;
+    padding-left: 150px;
+ }
+ input{
+    width: 600PX;
+    height: 50PX;
+ }
+ textarea{width: 300px;
+
+ }
+
+
+ </style>
+</head>
+<body style="background-color: aqua;">
+    <form id ="form">
+        <h1 style="color: brown; text-align: center;"> SURVEY FORM</h1>
+      <div class="form-control">
+        <label for="fname" id="label1"> <h3>NAME:</h3></label>
+        <input for="fname" type="text" placeholder="ENTER YOUR FIRST NAME:" id="ifname">
+        <label for="lname"><h3>Last Name:</h3></label><br>
+        <input for="lname" type="text" placeholder="ENTER YOUR SURNAME:" id="ilname">
+        <label for="email"><h3>EMAIL:</h3></label>
+        <input for="email" type="email"  placeholder="ENTER YOUR EMAIL" id="email">   
+        <label for="age" id="age"><h3>AGE:</h3></label>
+        <input for="email" placeholder="ENTER YOUR AGE" id="age">
+        <label for="option"><h3>WHICH OPTION BEST DESCRIBES YOU:</h3></label>
+        <select>
+            <option for="student">STUDENT</option>
+            <option for="EMPLOYE">EMPLOYE</option>
+            <option for="HOUSEWIFE">HOUSEWIFE</option>
+            <option for="TEACHER">TEACHER</option>
+
+        </select><br>
+        <h3>CHOOSE YOUR FAVORATE LANGUAGES:</h3>
+        <h3>ENGLISH :</h3> <input type="checkbox" name="english" value="english">
+        <label for="checkbox"><h3>MARATHI:</h3></label>
+        <input for="checkbox" type="checkbox" name="MARATHI" value="MARATHI"><br>
+        <label for="checkbox"><h3>MATH:</h3></label>
+        <input for="checkbox" type="checkbox" name="math" value="math">
+
+        <label><h3>ANY COMMENTS:</h3></label>
+        <textarea name="message" rows="10" cols="10">write your comments</textarea><br>
+        <input style="border-radius:50px; width: 80px; text-align: center; color: black; background-color: brown;" type="submit"  >
+        
+        
+      </div>
+    
+    
+
+    </form>
+    
+</body>
+</html>
